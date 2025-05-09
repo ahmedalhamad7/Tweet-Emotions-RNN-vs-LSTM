@@ -27,6 +27,13 @@ Experiments were organized into three phases:
 
 Each model followed a standardized architecture and was trained using categorical cross-entropy loss and the Adam optimizer, with EarlyStopping enabled for validation-based convergence.
 
+## GloVe Embeddings
+
+To use pretrained GloVe embeddings (100-dimensional), download them from the official Stanford NLP website:  
+[https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/)
+
+Unzip the file and place it in a directory named `glove/`, or update the path in the notebook accordingly.
+
 ## Results Summary
 
 | Model                                              | Epochs | Train Accuracy | Val Accuracy |
